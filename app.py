@@ -11,6 +11,13 @@ AVALAI_API_KEY = "aa-s5Ebh8oQHNjI4skZYIEsdsqStBtJLDAIt9RMAcp0yTxJ083Z"  # ⚠️
 AVALAI_BASE_URL = "https://api.avalai.ir/v1"
 # ============================
 
+# ====== تنظیمات پراکسی (اختیاری) ======
+proxies = {
+    "http": "http://your-proxy-address:port",
+    "https": "https://your-proxy-address:port",
+}
+# ============================
+
 with st.sidebar:
     st.header("⚙️ تنظیمات")
     
