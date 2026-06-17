@@ -11,12 +11,11 @@ AVALAI_API_KEY = "aa-s5Ebh8oQHNjI4skZYIEsdsqStBtJLDAIt9RMAcp0yTxJ083Z"  # ⚠️
 AVALAI_BASE_URL = "https://api.avalai.ir/v1"
 # ============================
 
-# ====== تنظیمات پراکسی (اختیاری) ======
-proxies = {
-    "http": "http://your-proxy-address:port",
-    "https": "https://your-proxy-address:port",
-}
+# ====== تنظیمات OpenRouter ======
+OPENROUTER_API_KEY = "sk-or-v1-..."  # کلید خود را از openrouter.ai بگیرید
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 # ============================
+
 
 with st.sidebar:
     st.header("⚙️ تنظیمات")
