@@ -11,11 +11,6 @@ AVALAI_API_KEY = "aa-s5Ebh8oQHNjI4skZYIEsdsqStBtJLDAIt9RMAcp0yTxJ083Z"  # ⚠️
 AVALAI_BASE_URL = "https://api.avalai.ir/v1"
 # ============================
 
-# ====== تنظیمات OpenRouter ======
-OPENROUTER_API_KEY = "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"  # کلید خود را از openrouter.ai بگیرید
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-# ============================
-
 
 with st.sidebar:
     st.header("⚙️ تنظیمات")
